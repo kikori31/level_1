@@ -64,7 +64,7 @@
                         <!-- 1행 할인전 가격 -->
                         <div class="discount_g_top">
                             <span class="discount_rate">1%</span>
-                            <del classs="original_price">1,700,000원</del>
+                            <del class="original_price">1,700,000원</del>
                             <a href="#" class="discount_info"><img src="" alt="판매가격정보"></a>
                             <!-- 위 a태그 클릭 시 나오는 판매정보 -->
                             <div class="discount_info_open">상품등록일을 기준으로...</div>
@@ -80,7 +80,12 @@
                         <h2>혜택</h2>
                         <div class="benfit_info">
                             <p class="benefit_point"><em>1,679P</em>적립(WELCOME 0.1% 적립)</p>
-                            <a href="#" class="benefit_card">월 279,833원(6개월)무이자할부<img src="" alt=""></a>
+                            <a href="#" class="interest_free">월 279,833원(6개월)무이자할부<img src="" alt=""></a>
+                            <!-- (위) 무이자할부 a 클릭시 실행되는 영역 -->
+                            <div class="interest_free_installment_open">
+                                <h3>무이자 할부</h3>
+                                <p>...</p>
+                            </div>
                         </div>
                     </div>
                     <!-- 배송 -->
@@ -88,25 +93,30 @@
                         <h2>배송</h2>
                         <div class="delivery_info">
                             <em>무료배송</em>
-                            <span class="delivery_date">지금 주문시<em>내일 출발</em></span>
-                            <a href="#"><img src="" alt=""></a>
-                            <!-- 위 e태그 클릭시 나오는 배송정보 -->
-                            <div class="delivery_info_open">판매자가 오늘출발을...</div>
+                            <span class="delivery_date">지금 주문시
+                                <em>내일 출발</em>
+                                <a href="#" class="today_info"><img src="" alt="오늘출발정보보기"></a></span>
+                            <!-- 위 e태그 클릭시 실행되는 오늘 출발 정보 -->
+                            <span class="delivery_info_open">
+                                <em>판매자가 '오늘출발'을 약속한 상품입니다.</em></span>
                             <span>일반택배</span>
                             <span>제주도/도서산간 지역 8,000원</span>
                         </div>
                     </div>
-                    <hr>
                     <!-- 브랜드 -->
                     <div class="brand_info">
-                        <a href="#" class="brand_summary">
-                            <img src="" alt="">
+                        <a href="#" class="brand_summary"><!-- 브랜드바로가기 -->
+                            <p class="brand_logo"><img src="" alt="LG"></p>
                             <div class="brand_name">
-                                <span><em>LG전자</em><img src="" alt=""></span>
-                                <span>브랜드</span>
+                                <div class="brand">
+                                    <em>LG전자</em><img src="" alt="">
+                                </div>
+                                <p>브랜드</p>
                             </div>
                         </a>
-                        <a href="#" class="bookmark_login"><img src="" alt="로그인화면"></a>
+                        <a href="#" class="brand_favorite"><!-- 브랜드관심등록 -->
+                            <img src="" alt="관심브랜드등록">
+                        </a>
                         
                     </div>
                 </div>
